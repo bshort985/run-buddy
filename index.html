@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>Run Buddy</title>
-        <link rel="stylesheet" href="C:\Users\bshor\OneDrive\Desktop\projects\style.css" />
+        <link rel="stylesheet" href="../run-buddy/assets/style.css" />
     </head>
     <body>
         <!-- navigation -->
@@ -26,26 +26,43 @@
                      </ul>
                  </nav>
              </header>
-             <!--Hero Element-->
-             <section>
+             <!--hero start-->
+             <section class="hero">
                  <div>
                      <h3>Get Started Today</h3>
-                    <p>Fill out this form and one of our trainers will scheduale a consult</p>
+                    <p>Fill out this form and one of our trainers will schedule a consult</p>
                 <form>
+                    <!--Info Input-->
+
                     <label for="name">Enter full name:</label>
                     <input type="text" placeholder="Your Name" name="name" id="name" />
 
                     <label for="email">Enter email address:</label>
-                    <input type="text" placeholder="Email Address" name="email" id="email" />
+                    <input type="email" placeholder="Email Address" name="email" id="email" />
 
                     <label for="phone">Enter a telephone number:</label>
-                    <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+
+                    <!--Radio Element-->
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
                 </form> 
                 </div>
              </section>
-        
-        <!-- hero/jumbotron -->
-             <section></section>
+        <!-- hero end -->
+
     
         <!--what we do section-->
             <section>
