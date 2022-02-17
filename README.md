@@ -13,4 +13,4 @@ https://lernantino.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Brian Short
 
-### 02019 Run Buddy, Inc
+### 02019 Run Buddy, Inc.
